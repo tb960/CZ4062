@@ -1,0 +1,169 @@
+.contain-size{
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+.card-size{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border-radius: 8px 8px 8px 8px;
+}
+
+/* .card-size:hover{
+    cursor: pointer;
+        margin-top: 1px;
+    box-shadow: 1px 1px 1px 1px #838383;
+} */
+
+.upper-body{
+    padding-bottom: 0px;
+}
+
+.upper-container{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+.company-logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.company-img{
+    width: 7.5rem;
+    height:7.5rem;
+}
+
+.wordingPart{
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.name-pay{
+    margin-bottom: 10px;
+    font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    font-size: 0.7rem;
+}
+
+.job-title{
+    display:flex;
+    justify-content: center;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    line-height: 200%;
+    margin-bottom: 0px;
+    font-size: 1.2rem;
+    font: weight 10px;;
+}
+
+.middle{
+    margin-top: 10px;
+}
+
+.form-group-1{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    display: flex;
+}
+
+.time{
+    text-align: left;
+    padding-left: 0;
+    margin-left: 0;
+    font-size: 0.6rem;
+}
+
+.time p{
+    font-style: italic;
+    color: rgb(131,131,131);
+}
+
+.borrow{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.flashLoan{
+    display:flex;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom :5px;
+}
+
+.title{
+    text-align: right;
+    padding-right: 10;
+    margin-right: 10;
+}
+
+.line-break{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.line-break-deposit{
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 42px;
+}
+
+.line-break-withdraw{
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 24px;
+}
+
+.specialisation-container{
+    background-color: #DDF7E9;
+    color: #1FC76A;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px 8px;
+    float: right;
+}
+
+.specialisation-container-2{
+    background-color: #b4b4b4;
+    color: #23332a;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px 8px;
+    float: right;
+}
+
+.tech-stack-container{
+    background-color: #F1F1F1;
+    color: #838383;
+    font-family: 'Roboto Mono', 'Consolas', monospace;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 8px;
+    margin-right:4px;
+    display: inline-block;
+    max-width: 90%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.lower-body{
+    background-color: #FFFFFF;
+    padding: 12px 20px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    min-height: 54px;
+}
+
+@media screen and (max-width: 575.9px){
+    .job-title{
+        font-size: 100%;
+    }
+}
